@@ -7,7 +7,6 @@ import javax.swing.JButton;
 public class TicketJPanel extends AbctractSamplePanel {
 
 	public TicketJPanel() {
-		// TODO 自動生成されたコンストラクター・スタブ
 		super();
 		setBounds(10, 10, 300, 300);
 		JButton button = new JButton();

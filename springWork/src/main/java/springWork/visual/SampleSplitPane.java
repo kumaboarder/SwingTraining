@@ -2,11 +2,20 @@ package springWork.visual;
 
 import java.awt.Component;
 
-import javax.swing.JPanel;
+import javax.swing.JSplitPane;
 
 import springWork.utility.SampleStringUtility;
 
-public class AbctractSamplePanel extends JPanel {
+public class SampleSplitPane extends JSplitPane {
+
+	public SampleSplitPane() {
+		setBounds(50,50,300,300);
+	}
+	public SampleSplitPane(int newOrientation) {
+		super(newOrientation);
+		setBounds(50,50,300,300);
+	}
+
 	@Override
 	public String toString() {
 		SampleStringUtility.outStartEnd(this, SampleStringUtility.OUT_START);
